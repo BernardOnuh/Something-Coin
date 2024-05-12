@@ -9,11 +9,11 @@ export default function Home() {
 
   return (
     <main className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}>
-      <header className="flex justify-center items-center mb-8">
+      <header className="flex justify-center items-center mb-2">
         <Image src="/something.png" alt="Logo" width={100} height={100} />
-        <h1 className="ml-4 text-2xl font-bold">Something Coin</h1>
+        <h1 className="ml-2 text-2xl font-bold">Something Coin</h1>
       </header>
-      <h4 className="ml-4 text-xl font-semibold text-center">This is a Demo of TON mini app representing gaming on TON Blockchain <br></br> Click To Earn </h4>
+      <h4 className="ml-4  font-semibold text-center">This is a Demo of TON mini app representing gaming on TON Blockchain <br></br> Click To Earn </h4>
       <div className="card relative">
       <Image 
           src="/something.png" 
