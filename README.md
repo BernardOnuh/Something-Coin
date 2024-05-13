@@ -16,6 +16,10 @@ git clone https://github.com/BernardOnuh/Something-Coin
    npm install
    ```
 3. Start the Project on your CLI
+
+ ```bash
+npm run dev
+```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
